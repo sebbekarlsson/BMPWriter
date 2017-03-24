@@ -40,7 +40,7 @@
             ],
             [
                 [r, g, b], [r, g, b], [r, g, b]
-            ],
+            ]
         ]
 
 > This is a psuedo-example of the vector, this would produce a BMP with the
