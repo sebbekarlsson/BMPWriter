@@ -20,7 +20,6 @@
         write_bmp(filename, rgbvector)
 
 > The first argument is a filename, and the second argument is a vector
-
 > that looks like this: std::vector\<std::vector\<std::vector\<int\>\>\>.
 
         [
