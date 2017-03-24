@@ -53,4 +53,4 @@
 
         make
         make test
-        ./test.a
+        ./test.out

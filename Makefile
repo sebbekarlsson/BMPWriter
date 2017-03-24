@@ -43,7 +43,7 @@ install:
 	mv libbmpwriter.so /usr/local/lib/libbmpwriter.so
 
 test:
-	g++ test.cpp -o test.a $(OFILES_TEST)
+	g++ test.cpp -o test.out $(OFILES_TEST)
 
 clean:
 	-rm -rf bmpwriter
