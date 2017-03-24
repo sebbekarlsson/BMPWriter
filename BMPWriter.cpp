@@ -6,7 +6,6 @@
  *
  * @param std::string filename,
  * @param std::vector<std::vector<std::vector<int>>> BMPImage - RGB + pixeldata
- *
  */
 void BMPWriter::write_bmp(
         std::string filename,
