@@ -15,6 +15,28 @@
 
 > Make sure you have installed it first.
 
+### Function
+
+        write_bmp(filename, rgbvector)
+
+> The first argument is a filename, and the second argument is a vector
+
+> that looks like this: std::vector\<std::vector\<std::vector\<int\>\>\>.
+
+        [
+            [r, g, b], [r, g, b], [r, g, b]
+            [r, g, b], [r, g, b], [r, g, b]
+            [r, g, b], [r, g, b], [r, g, b]
+            [r, g, b], [r, g, b], [r, g, b]
+            [r, g, b], [r, g, b], [r, g, b]
+            [r, g, b], [r, g, b], [r, g, b]
+        ]
+
+> This is a psuedo-example of the vector, this would produce a BMP with the
+> `width` of `3` and the `height` of `6`.
+
+> You should be able to find a real example in `test.cpp`.
+
 ## Developing
 > To develop, compile and run the "test" program, run:
 
