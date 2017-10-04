@@ -8,10 +8,9 @@
  * @param std::vector<std::vector<std::vector<int>>> BMPImage - RGB + pixeldata
  */
 void BMPWriter::write_bmp(
-        std::string filename,
-        std::vector<std::vector<std::vector<int>>> BMPImage
-        ) {
-    
+    std::string filename,
+    std::vector<std::vector<std::vector<int>>> BMPImage
+) {
     int h = BMPImage.size();
     int w = BMPImage[0].size();
 

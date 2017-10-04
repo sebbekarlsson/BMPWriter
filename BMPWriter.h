@@ -8,9 +8,9 @@
 
 namespace BMPWriter {
     void write_bmp(
-            std::string filename,
-            std::vector<std::vector<std::vector<int> > > BMPImage
-            );
+        std::string filename,
+        std::vector<std::vector<std::vector<int> > > BMPImage
+    );
 }
 
 #endif
