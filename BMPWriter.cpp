@@ -18,9 +18,8 @@ void BMPWriter::write_bmp(
     unsigned char *img = NULL;
     int filesize = 54 + 3 * w * h;
 
-    if(img) {
+    if(img)
         free(img);
-    }
 
     img = (unsigned char *) malloc(3 * w * h);
     memset(img, 0, 3 * w * h);
